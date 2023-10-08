@@ -20,7 +20,7 @@ public class GuessingGames {
             } else {
                 System.out.print("Incorrect guess. Do you want to quit? (yes/no): ");
                 String quitChoice = scanner.nextLine().toLowerCase();
-
+//If guess is right print congratulation
                 if (quitChoice.equals("yes")) {
                     System.out.println("The correct answer was: " + correctAnswer);
                     break;
